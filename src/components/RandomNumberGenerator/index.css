@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.app-container {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  max-width: 500px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 20px;
+  padding: 18px;
+}
+@media screen and (min-width: 992px) {
+  .card-container {
+    width: 50%;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 23px;
+  color: #0b69ff;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+@media screen and (min-width: 992px) {
+  .heading {
+    font-size: 32px;
+    font-weight: 600;
+  }
+}
+.description {
+  color: #333333;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-bottom: 18px;
+  font-size: 13px;
+}
+@media screen and (min-width: 992px) {
+  .description {
+    font-size: 18px;
+  }
+}
+.button {
+  width: 140px;
+  height: 40px;
+  border-radius: 15px;
+  border-width: 0px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 12px;
+}
+.count-num {
+  color: #0b69ff;
+  font-size: 42px;
+  font-family: Roboto;
+  font-weight: 600;
+}
+@media screen and (min-width: 992px) {
+  .count-num {
+    font-size: 62px;
+  }
+}
